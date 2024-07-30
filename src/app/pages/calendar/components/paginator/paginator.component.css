@@ -1,0 +1,57 @@
+.paginator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: #e0e0e0;
+    padding: 0.5rem;
+    color: #555555;
+    box-shadow: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    margin: 0 1rem;
+    /* Increased margin to provide more space around buttons */
+}
+
+.nav-button:hover {
+    background-color: #d0d0d0;
+    color: #333333;
+    transform: scale(1.05);
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* Increased gap for more space between label and input field */
+}
+
+.month-input {
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 80px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.month-input:focus {
+    border-color: #1A73E8;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.3);
+}
+
+.label-input {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1rem;
+}

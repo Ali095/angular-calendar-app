@@ -1,0 +1,51 @@
+header {
+    height: 60px;
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1d1d1d;
+    background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+    /* Gradient background for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
+}
+
+header .title-area {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 100%;
+    margin-right: 0.6rem;
+    border-radius: 50%;
+    /* Circular image */
+    border: 2px solid #fff;
+    /* White border for contrast */
+}
+
+header h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    /* White text color */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    /* Smooth transition for effects */
+}
+
+header h1:hover {
+    color: #ffd700;
+    /* Gold color on hover for emphasis */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for a glowing effect */
+}
+
+span {
+    margin-left: 0.3rem;
+    color: #fff;
+    /* White color for text */
+    font-weight: 500;
+}
